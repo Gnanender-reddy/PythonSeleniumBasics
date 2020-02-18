@@ -1,5 +1,10 @@
+"""
+@Author : P.Gnanender Reddy
+@Since : Feb'2020
+@keywords: selenium.
+@Description:This code is for python selenium basics which has navigation commands.
+"""
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 driver=webdriver.Chrome()
