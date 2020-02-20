@@ -5,12 +5,8 @@
 @Description:This code is for python selenium basics which has handling browsers windows concept.
 """
 
-import time
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-
 driver=webdriver.Chrome()
-
 driver.maximize_window()
 driver.get("http://demo.automationtesting.in/Windows.html")
 driver.find_element_by_xpath("//*[@id='Tabbed']/a/button").click()
