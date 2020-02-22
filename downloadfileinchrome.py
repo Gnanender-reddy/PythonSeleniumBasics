@@ -7,9 +7,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 #to change the chrome settings for downloading files
-chromeoptions=Options()
-chromeoptions.add_experimental_option("prefs",{"download.default_directory":"home/admin/Downloads"})
-driver=webdriver.Chrome("chromeoptions=chromeoptions")
+# chromeoptions=Options()
+# chromeoptions.add_experimental_option("prefs",{"download.default_directory":"home/admin/Downloads"})
+driver=webdriver.Chrome(chromeoptions=chromeoptions)
 driver.get("http://demo.automationtesting.in/FileDownload.html")
 driver.maximize_window()
 #download text file
